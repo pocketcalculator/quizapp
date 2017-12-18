@@ -1,0 +1,60 @@
+user hits start button
+question status rendered
+render next question from the QUIZ object
+wait for user answer selection/submit
+then push user answer into answers array
+compare with actual answer
+display right/wrong with next button
+user score updated
+back to top
+
+
+function startQuiz() {
+  // this function will start the quiz when a user clicks the "start" button
+  console.log('`startQuiz` ran')
+}
+
+function renderQuestion() {
+  // this function will display a question from the QUIZ object
+  console.log('`renderQuestion` ran')
+}
+
+function renderQuizQuestionStatus() {
+  // this function will display the question number in list
+  console.log('`renderQuizQuestionStatus` ran')
+}
+
+function renderCurrentScore() {
+  // this function will display the user's current score
+  console.log('`renderCurrentScore` ran')
+}
+
+function recordResponse() {
+  // this function will gather the user's response to the question
+  console.log('`recordResponse` ran')
+}
+
+function validateResponse() {
+  // this function will compare the user's response to the correct answer
+  console.log('`validateResponse` ran')
+}
+
+function updateScore() {
+  // this function will update the user's score through the quiz
+  console.log('`updateScore` ran')
+}
+
+function displayResult() {
+  // this function will display the result for each user response
+  console.log('`displayResult` ran')
+}
+
+function resultSummary() {
+  // this function will display the user's final score and a summary of the questions & answers
+  console.log('`resultSummary` ran')
+}
+
+function retry() {
+  // this function will listen for the retry button and restart the quiz if pressed
+  console.log('`retry` ran')
+}

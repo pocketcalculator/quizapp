@@ -1,0 +1,236 @@
+
+body * {
+  box-sizing: border-box;
+}
+
+html {
+  background: url('https://s3.amazonaws.com/thinkful.pocketcalculator.io/quizapp/bg.jpg') repeat-y center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  border: 2px solid #CD6090;
+  background-color: lightgrey;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h1 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-style: italic;
+  color: #CD6090;
+  text-shadow: 2px 2px darkgrey;
+}
+
+header p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  color: dimgray;
+}
+
+main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 3px;
+  border: 2px solid #CD6090;
+  background-color: lightgrey;
+  color: dimgray;
+}
+
+main h2 {
+  color: #CD6090;
+  text-shadow: 1px 1px darkgrey;
+}
+
+.startQuiz {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.questionForm {
+  margin-top: 20px;
+  width: 70%
+}
+
+.questionForm fieldset {
+  border: none;
+  padding: 0;
+}
+
+.questionForm ol {
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.questionForm li {
+  margin: 2px;
+}
+
+.quizStatus {
+  position: relative;
+  margin-left: 15%;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.quizFeedback {
+  position: relative;
+  margin-left: 15%;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+.quizFeedback p {
+  margin-top: 5px;
+}
+
+.score {
+  position: relative;
+  margin-left: 5px;
+}
+
+.quizResults {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.quizSummary {
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 30px;
+}
+
+.quizSummary ul {
+  margin-top: 10px;
+  padding-left: 25px;
+  list-style-type: none;
+}
+
+.retryQuizButtonSection {
+  margin-bottom: 10px;
+}
+
+#startQuizButton {
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #CD6090;
+  font-weight: 500;
+  color: lightgrey;
+  border: 2px solid darkgrey;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#startQuizButton:hover {
+  border: 2px solid #CD6090;
+  background-color: darkgrey; /* Green */
+  color: #CD6090;
+}
+
+#startQuizButton:active {
+  border: 2px solid #CD6090;
+  background-color: darkgrey; /* Green */
+  color: #CD6090;
+}
+
+#submitAnswerButton {
+  margin-top: 0;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #CD6090;
+  font-weight: 500;
+  color: lightgrey;
+  border: 2px solid darkgrey;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#submitAnswerButton:hover {
+  border: 2px solid #CD6090;
+  background-color: darkgrey; /* Green */
+  color: #CD6090;
+}
+
+#submitAnswerButton:active {
+  border: 2px solid #CD6090;
+  background-color: darkgrey; /* Green */
+  color: #CD6090;
+}
+
+#continueQuizButton {
+  margin-top: 0;
+  position: relative;
+  left: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #CD6090;
+  font-weight: 500;
+  color: lightgrey;
+  border: 2px solid darkgrey;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#continueQuizButton:hover {
+  border: 2px solid #CD6090;
+  background-color: darkgrey; /* Green */
+  color: #CD6090;
+}
+
+#continueQuizButton:active {
+  border: 2px solid #CD6090;
+  background-color: darkgrey; /* Green */
+  color: #CD6090;
+}
+
+#retryQuizButton {
+  margin-top: 0;
+  position: relative;
+  left: 50px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #CD6090;
+  font-weight: 500;
+  color: lightgrey;
+  border: 2px solid darkgrey;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#retryQuizButton:hover {
+  border: 2px solid #CD6090;
+  background-color: darkgrey; /* Green */
+  color: #CD6090;
+}
+
+#retryQuizButton:active {
+  border: 2px solid #CD6090;
+  background-color: darkgrey; /* Green */
+  color: #CD6090;
+}

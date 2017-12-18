@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="1980s Trivia Quiz">
+  <meta name="keywords" content="1980s,Trivia,History,Retro">
+  <meta name="author" content="Paul Sczurek">
+  <title>1980s Trivia Quiz</title>
+
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Normalize.css, a cross-browser reset file -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link href="index.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+  <header role="banner">
+    <h1>1980s Trivia</h1>
+    <p>Test your knowledge of pop culture from the decade of excess.</p>
+  </header>
+  <main role="main">
+    <div class="start_quiz">
+      <h2>Shall we play a game?</h2>
+      <button class="start_quiz">
+        <span class="button-label">Like, totally!</span>
+      </button>
+    </div>
+    <div class="quiz_area">
+      <form class="question" id="question_2">
+        <h2>Which soft drink debuted in 1982?</h2>
+        <input type="radio" id="0" name="0" value="0"> <label for="0">Mountain Dew</label>
+        <input type="radio" id="1" name="1" value="1"> <label for="1">Dr. Pepper</label>
+        <input type="radio" id="2" name="2" value="2"> <label for="2">Faygo</label>
+        <input type="radio" id="3" name="3" value="3"> <label for="3">Diet Coke</label>
+        <input type="submit" name="submit" value="Submit Answer">
+      </form>
+    </div>
+    <div class="quiz_feedback">
+      <p>You are right!</p>
+      <p>Incorrect, the correct answer is Diet Coke.</p>
+    </div>
+    <div class="quiz_status">
+      <span class="question_number">Question 2 of 10</span>
+      <span class="score">Score: 1 / 1 (100%)</span>
+    </div>
+    <div class="navigation">
+      <button class="previous">
+        <span class="button-label">Previous</span>
+      </button>
+      <button class="next">
+        <span class="button-label">Next</span>
+      </button>
+    </div>
+    <div class="results_summary">
+      <h2>Score: 90% Whoa, you're wicked awesome!  Quiz results below.</h2>
+    </div>
+    <div class="answer_summary">
+      <p class="results_incorrect_question">
+        Which soft drink debuted in 1982?
+        <ul>
+          <li>Mountain Dew<span id="wrong_answer"> &#10008; You were wrong.</span></li>
+          <li>Dr. Pepper</li>
+          <li>Faygo</li>
+          <li>Diet Coke<span id="right_answer"> &#10004; Correct answer.</span></li>
+        </ul>
+      </p>
+      <p class="results_correct_question">
+        Which soft drink debuted in 1982?
+        <ul>
+          <li>Mountain Dew</li>
+          <li>Dr. Pepper</li>
+          <li>Faygo</li>
+          <li>Diet Coke<span id="right_answer"> &#10004; You were right!</span></li>
+        </ul>
+      </p>
+      <div class="navigation">
+        <button class="Retry">
+          <span class="button-label">Retry</span>
+        </button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
